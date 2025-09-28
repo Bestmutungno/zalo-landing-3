@@ -6,11 +6,17 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
-      padding: 20px;
+      height: 100vh; /* Chiều cao toàn màn hình */
+      display: flex;
+      justify-content: center; /* Căn giữa ngang */
+      align-items: center;     /* Căn giữa dọc */
       background: #fff;
       color: #333;
+      text-align: center;
+    }
+    .container {
+      max-width: 90%;
     }
     h1 {
       color: #e91e63;
@@ -43,14 +49,16 @@
   </style>
 </head>
 <body>
-  <h1>✨ Tham gia nhóm Zalo săn sale mỹ phẩm ✨</h1>
+  <div class="container">
+    <h1>✨ Tham gia nhóm Zalo săn sale mỹ phẩm ✨</h1>
 
-  <p class="highlight">🔥 Giảm sốc tới 50% – Deal hot cập nhật mỗi ngày</p>
-  <p class="highlight">🎁 Voucher độc quyền cho thành viên</p>
+    <p class="highlight">🔥 Giảm sốc tới 50% – Deal hot cập nhật mỗi ngày</p>
+    <p class="highlight">🎁 Voucher độc quyền cho thành viên</p>
 
-  <!-- Đổi link Zalo của bạn vào đây -->
-  <a href="https://zalo.me/g/xxxxxx" class="btn">👉 Tham gia ngay</a>
+    <!-- Link Zalo thay vào đây -->
+    <a href="https://zalo.me/g/xxxxxx" class="btn">👉 Tham gia ngay</a>
 
-  <p class="note">* Nhóm riêng tư chỉ dành cho khách hàng quan tâm đặc biệt</p>
+    <p class="note">* Nhóm riêng tư chỉ dành cho khách hàng quan tâm đặc biệt</p>
+  </div>
 </body>
 </html>
